@@ -1,10 +1,24 @@
 {
+  "name": "smart-glasses-server-relay",
+  "version": "1.0.0",
+  "description": "Backend server for smart glasses to handle AI and TTS.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "deepseek",
+    "tts",
+    "node",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@google-cloud/text-to-speech": "^6.4.0",
-    "axios": "^1.12.2",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "form-data": "^4.0.4",
-    "multer": "^2.0.2"
+    "@google-cloud/text-to-speech": "^5.3.0",
+    "deepseek": "latest",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.10.0"
   }
 }
