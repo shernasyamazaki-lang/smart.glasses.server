@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.4.0",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "form-data": "^4.0.4",
+    "multer": "^2.0.2"
+  }
+}
